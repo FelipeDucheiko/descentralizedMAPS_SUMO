@@ -33,7 +33,7 @@ public class About extends JPanel implements MouseListener {
 		//MAPS.setBounds(130, 50, 400, 30);
 		MAPS.setFont(new Font("Arial", Font.BOLD, 28));
 
-		JTextArea description = new JTextArea("The MAPS (MultiAgent Parking System) initiave is a research project developed by students and professors of Computer Science at UTFPR - (Federal University of Technology - Paraná). Its main goal is to develop solutions for intelligent parking systems. For more information visit:");
+		JTextArea description = new JTextArea("The MAPS (MultiAgent Parking System) initiave is a research project developed by students and professors of Computer Science at UTFPR - (Federal University of Technology - Parana). Its main goal is to develop solutions for intelligent parking systems. For more information visit:");
 		description.setAlignmentX(RIGHT_ALIGNMENT);
 		add(description);
 		description.setLineWrap(true);

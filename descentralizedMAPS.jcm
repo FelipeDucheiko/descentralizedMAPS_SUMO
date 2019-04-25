@@ -1,179 +1,1799 @@
 mas descentralizedMAPS {
+	agent d0: driver.asl {
+		 beliefs: targetLocation(93,36)
+				 timeToArrive(21496)
+				 timeToSpend(25967)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
 	agent d1: driver.asl {
-		 beliefs: targetLocation(65,95)
-				 timeToArrive(33493)
-				 timeToSpend(18518)
+		 beliefs: targetLocation(174,19)
+				 timeToArrive(224110)
+				 timeToSpend(8381)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d2: driver.asl {
-		 beliefs: targetLocation(0,57)
-				 timeToArrive(41028)
-				 timeToSpend(27507)
+		 beliefs: targetLocation(109,32)
+				 timeToArrive(214714)
+				 timeToSpend(24646)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d3: driver.asl {
-		 beliefs: targetLocation(41,18)
-				 timeToArrive(5712)
-				 timeToSpend(10860)
+		 beliefs: targetLocation(149,41)
+				 timeToArrive(64559)
+				 timeToSpend(9883)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d4: driver.asl {
-		 beliefs: targetLocation(86,9)
-				 timeToArrive(54395)
-				 timeToSpend(5065)
+		 beliefs: targetLocation(312,4)
+				 timeToArrive(165929)
+				 timeToSpend(16697)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d5: driver.asl {
-		 beliefs: targetLocation(26,24)
-				 timeToArrive(53168)
-				 timeToSpend(10293)
+		 beliefs: targetLocation(20,25)
+				 timeToArrive(53159)
+				 timeToSpend(11757)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d6: driver.asl {
-		 beliefs: targetLocation(51,63)
-				 timeToArrive(37469)
-				 timeToSpend(22947)
+		 beliefs: targetLocation(388,56)
+				 timeToArrive(145170)
+				 timeToSpend(26099)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d7: driver.asl {
-		 beliefs: targetLocation(49,38)
-				 timeToArrive(20507)
-				 timeToSpend(11133)
+		 beliefs: targetLocation(2,32)
+				 timeToArrive(118555)
+				 timeToSpend(27351)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d8: driver.asl {
-		 beliefs: targetLocation(24,54)
-				 timeToArrive(29452)
-				 timeToSpend(26823)
+		 beliefs: targetLocation(267,7)
+				 timeToArrive(214884)
+				 timeToSpend(20591)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d9: driver.asl {
-		 beliefs: targetLocation(73,32)
-				 timeToArrive(49120)
-				 timeToSpend(28410)
+		 beliefs: targetLocation(251,46)
+				 timeToArrive(93252)
+				 timeToSpend(22355)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d10: driver.asl {
-		 beliefs: targetLocation(66,33)
-				 timeToArrive(37972)
-				 timeToSpend(29549)
+		 beliefs: targetLocation(56,28)
+				 timeToArrive(90846)
+				 timeToSpend(5706)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d11: driver.asl {
-		 beliefs: targetLocation(84,18)
-				 timeToArrive(7512)
-				 timeToSpend(16838)
+		 beliefs: targetLocation(154,34)
+				 timeToArrive(231211)
+				 timeToSpend(26210)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d12: driver.asl {
-		 beliefs: targetLocation(95,15)
-				 timeToArrive(41354)
-				 timeToSpend(16214)
+		 beliefs: targetLocation(39,20)
+				 timeToArrive(88131)
+				 timeToSpend(13612)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d13: driver.asl {
-		 beliefs: targetLocation(41,47)
-				 timeToArrive(25316)
-				 timeToSpend(29123)
+		 beliefs: targetLocation(173,48)
+				 timeToArrive(42251)
+				 timeToSpend(16601)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d14: driver.asl {
-		 beliefs: targetLocation(95,91)
-				 timeToArrive(5935)
-				 timeToSpend(6911)
+		 beliefs: targetLocation(217,17)
+				 timeToArrive(39737)
+				 timeToSpend(19765)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d15: driver.asl {
-		 beliefs: targetLocation(57,61)
-				 timeToArrive(42467)
-				 timeToSpend(28781)
+		 beliefs: targetLocation(228,59)
+				 timeToArrive(122723)
+				 timeToSpend(9455)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d16: driver.asl {
-		 beliefs: targetLocation(61,17)
-				 timeToArrive(13052)
-				 timeToSpend(19243)
+		 beliefs: targetLocation(365,58)
+				 timeToArrive(135605)
+				 timeToSpend(27897)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d17: driver.asl {
-		 beliefs: targetLocation(80,34)
-				 timeToArrive(6042)
-				 timeToSpend(23483)
+		 beliefs: targetLocation(162,29)
+				 timeToArrive(205905)
+				 timeToSpend(19467)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d18: driver.asl {
-		 beliefs: targetLocation(73,66)
-				 timeToArrive(14517)
-				 timeToSpend(27748)
+		 beliefs: targetLocation(40,18)
+				 timeToArrive(91408)
+				 timeToSpend(24950)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d19: driver.asl {
-		 beliefs: targetLocation(51,0)
-				 timeToArrive(30427)
-				 timeToSpend(21574)
+		 beliefs: targetLocation(314,31)
+				 timeToArrive(50727)
+				 timeToSpend(9184)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
 		 focus: parkingLot_org.jacamo_team
 	}
 	agent d20: driver.asl {
-		 beliefs: targetLocation(97,44)
-				 timeToArrive(30088)
-				 timeToSpend(23203)
+		 beliefs: targetLocation(29,51)
+				 timeToArrive(228037)
+				 timeToSpend(12075)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d21: driver.asl {
+		 beliefs: targetLocation(194,52)
+				 timeToArrive(211368)
+				 timeToSpend(26561)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d22: driver.asl {
+		 beliefs: targetLocation(181,1)
+				 timeToArrive(94720)
+				 timeToSpend(27457)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d23: driver.asl {
+		 beliefs: targetLocation(35,13)
+				 timeToArrive(94427)
+				 timeToSpend(9063)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d24: driver.asl {
+		 beliefs: targetLocation(8,59)
+				 timeToArrive(19023)
+				 timeToSpend(25515)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d25: driver.asl {
+		 beliefs: targetLocation(118,15)
+				 timeToArrive(121847)
+				 timeToSpend(23016)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d26: driver.asl {
+		 beliefs: targetLocation(226,10)
+				 timeToArrive(76628)
+				 timeToSpend(14631)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d27: driver.asl {
+		 beliefs: targetLocation(168,50)
+				 timeToArrive(104053)
+				 timeToSpend(10367)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d28: driver.asl {
+		 beliefs: targetLocation(158,14)
+				 timeToArrive(183650)
+				 timeToSpend(7603)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d29: driver.asl {
+		 beliefs: targetLocation(198,14)
+				 timeToArrive(144721)
+				 timeToSpend(19265)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d30: driver.asl {
+		 beliefs: targetLocation(381,34)
+				 timeToArrive(219003)
+				 timeToSpend(8515)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d31: driver.asl {
+		 beliefs: targetLocation(145,13)
+				 timeToArrive(113897)
+				 timeToSpend(7083)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d32: driver.asl {
+		 beliefs: targetLocation(240,24)
+				 timeToArrive(97144)
+				 timeToSpend(20343)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d33: driver.asl {
+		 beliefs: targetLocation(187,49)
+				 timeToArrive(211211)
+				 timeToSpend(20559)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d34: driver.asl {
+		 beliefs: targetLocation(185,0)
+				 timeToArrive(184272)
+				 timeToSpend(15159)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d35: driver.asl {
+		 beliefs: targetLocation(72,1)
+				 timeToArrive(93771)
+				 timeToSpend(29741)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d36: driver.asl {
+		 beliefs: targetLocation(78,16)
+				 timeToArrive(234174)
+				 timeToSpend(10697)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d37: driver.asl {
+		 beliefs: targetLocation(174,41)
+				 timeToArrive(57994)
+				 timeToSpend(8500)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d38: driver.asl {
+		 beliefs: targetLocation(22,39)
+				 timeToArrive(218543)
+				 timeToSpend(27838)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d39: driver.asl {
+		 beliefs: targetLocation(36,28)
+				 timeToArrive(95311)
+				 timeToSpend(12456)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d40: driver.asl {
+		 beliefs: targetLocation(345,7)
+				 timeToArrive(173953)
+				 timeToSpend(29978)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d41: driver.asl {
+		 beliefs: targetLocation(278,51)
+				 timeToArrive(237250)
+				 timeToSpend(29731)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d42: driver.asl {
+		 beliefs: targetLocation(291,24)
+				 timeToArrive(205653)
+				 timeToSpend(19035)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d43: driver.asl {
+		 beliefs: targetLocation(399,49)
+				 timeToArrive(213563)
+				 timeToSpend(7622)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d44: driver.asl {
+		 beliefs: targetLocation(65,33)
+				 timeToArrive(151822)
+				 timeToSpend(26367)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d45: driver.asl {
+		 beliefs: targetLocation(28,14)
+				 timeToArrive(238071)
+				 timeToSpend(27302)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d46: driver.asl {
+		 beliefs: targetLocation(322,43)
+				 timeToArrive(232863)
+				 timeToSpend(15488)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d47: driver.asl {
+		 beliefs: targetLocation(271,14)
+				 timeToArrive(124675)
+				 timeToSpend(24441)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d48: driver.asl {
+		 beliefs: targetLocation(214,47)
+				 timeToArrive(120784)
+				 timeToSpend(6961)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d49: driver.asl {
+		 beliefs: targetLocation(170,40)
+				 timeToArrive(224014)
+				 timeToSpend(21008)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d50: driver.asl {
+		 beliefs: targetLocation(194,39)
+				 timeToArrive(111466)
+				 timeToSpend(19471)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d51: driver.asl {
+		 beliefs: targetLocation(367,29)
+				 timeToArrive(177371)
+				 timeToSpend(13373)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d52: driver.asl {
+		 beliefs: targetLocation(42,33)
+				 timeToArrive(98885)
+				 timeToSpend(25386)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d53: driver.asl {
+		 beliefs: targetLocation(86,33)
+				 timeToArrive(225068)
+				 timeToSpend(23484)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d54: driver.asl {
+		 beliefs: targetLocation(165,9)
+				 timeToArrive(56736)
+				 timeToSpend(12427)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d55: driver.asl {
+		 beliefs: targetLocation(7,18)
+				 timeToArrive(78279)
+				 timeToSpend(18275)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d56: driver.asl {
+		 beliefs: targetLocation(253,25)
+				 timeToArrive(164329)
+				 timeToSpend(14966)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d57: driver.asl {
+		 beliefs: targetLocation(347,57)
+				 timeToArrive(35365)
+				 timeToSpend(25859)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d58: driver.asl {
+		 beliefs: targetLocation(155,31)
+				 timeToArrive(76784)
+				 timeToSpend(11351)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d59: driver.asl {
+		 beliefs: targetLocation(126,26)
+				 timeToArrive(173309)
+				 timeToSpend(17862)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d60: driver.asl {
+		 beliefs: targetLocation(238,40)
+				 timeToArrive(209448)
+				 timeToSpend(25814)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d61: driver.asl {
+		 beliefs: targetLocation(320,33)
+				 timeToArrive(174717)
+				 timeToSpend(29705)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d62: driver.asl {
+		 beliefs: targetLocation(181,10)
+				 timeToArrive(217494)
+				 timeToSpend(22221)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d63: driver.asl {
+		 beliefs: targetLocation(111,21)
+				 timeToArrive(36849)
+				 timeToSpend(24945)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d64: driver.asl {
+		 beliefs: targetLocation(32,31)
+				 timeToArrive(78320)
+				 timeToSpend(12286)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d65: driver.asl {
+		 beliefs: targetLocation(13,34)
+				 timeToArrive(75369)
+				 timeToSpend(14255)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d66: driver.asl {
+		 beliefs: targetLocation(274,42)
+				 timeToArrive(25070)
+				 timeToSpend(19999)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d67: driver.asl {
+		 beliefs: targetLocation(80,56)
+				 timeToArrive(161863)
+				 timeToSpend(9726)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d68: driver.asl {
+		 beliefs: targetLocation(129,31)
+				 timeToArrive(141899)
+				 timeToSpend(8543)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d69: driver.asl {
+		 beliefs: targetLocation(364,39)
+				 timeToArrive(180350)
+				 timeToSpend(20041)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d70: driver.asl {
+		 beliefs: targetLocation(276,3)
+				 timeToArrive(40356)
+				 timeToSpend(9560)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d71: driver.asl {
+		 beliefs: targetLocation(299,54)
+				 timeToArrive(29332)
+				 timeToSpend(23799)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d72: driver.asl {
+		 beliefs: targetLocation(83,55)
+				 timeToArrive(151511)
+				 timeToSpend(5493)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d73: driver.asl {
+		 beliefs: targetLocation(373,10)
+				 timeToArrive(216384)
+				 timeToSpend(7577)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d74: driver.asl {
+		 beliefs: targetLocation(235,27)
+				 timeToArrive(19462)
+				 timeToSpend(15930)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d75: driver.asl {
+		 beliefs: targetLocation(119,58)
+				 timeToArrive(98844)
+				 timeToSpend(7008)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d76: driver.asl {
+		 beliefs: targetLocation(7,49)
+				 timeToArrive(180545)
+				 timeToSpend(15289)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d77: driver.asl {
+		 beliefs: targetLocation(112,3)
+				 timeToArrive(226179)
+				 timeToSpend(10281)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d78: driver.asl {
+		 beliefs: targetLocation(135,13)
+				 timeToArrive(149263)
+				 timeToSpend(8521)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d79: driver.asl {
+		 beliefs: targetLocation(191,35)
+				 timeToArrive(60739)
+				 timeToSpend(21570)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d80: driver.asl {
+		 beliefs: targetLocation(396,3)
+				 timeToArrive(173797)
+				 timeToSpend(9446)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d81: driver.asl {
+		 beliefs: targetLocation(294,30)
+				 timeToArrive(44748)
+				 timeToSpend(17636)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d82: driver.asl {
+		 beliefs: targetLocation(73,38)
+				 timeToArrive(74956)
+				 timeToSpend(8358)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d83: driver.asl {
+		 beliefs: targetLocation(25,49)
+				 timeToArrive(51679)
+				 timeToSpend(24088)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d84: driver.asl {
+		 beliefs: targetLocation(35,57)
+				 timeToArrive(144511)
+				 timeToSpend(9376)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d85: driver.asl {
+		 beliefs: targetLocation(351,32)
+				 timeToArrive(46400)
+				 timeToSpend(25532)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d86: driver.asl {
+		 beliefs: targetLocation(226,22)
+				 timeToArrive(91258)
+				 timeToSpend(12244)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d87: driver.asl {
+		 beliefs: targetLocation(271,33)
+				 timeToArrive(247620)
+				 timeToSpend(28821)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d88: driver.asl {
+		 beliefs: targetLocation(237,9)
+				 timeToArrive(100508)
+				 timeToSpend(26543)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d89: driver.asl {
+		 beliefs: targetLocation(228,38)
+				 timeToArrive(105235)
+				 timeToSpend(12444)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d90: driver.asl {
+		 beliefs: targetLocation(321,7)
+				 timeToArrive(247749)
+				 timeToSpend(7382)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d91: driver.asl {
+		 beliefs: targetLocation(233,9)
+				 timeToArrive(109654)
+				 timeToSpend(24395)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d92: driver.asl {
+		 beliefs: targetLocation(331,45)
+				 timeToArrive(91016)
+				 timeToSpend(16135)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d93: driver.asl {
+		 beliefs: targetLocation(29,3)
+				 timeToArrive(103961)
+				 timeToSpend(12503)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d94: driver.asl {
+		 beliefs: targetLocation(136,12)
+				 timeToArrive(146377)
+				 timeToSpend(17621)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d95: driver.asl {
+		 beliefs: targetLocation(128,27)
+				 timeToArrive(106762)
+				 timeToSpend(5517)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d96: driver.asl {
+		 beliefs: targetLocation(395,8)
+				 timeToArrive(218496)
+				 timeToSpend(26491)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d97: driver.asl {
+		 beliefs: targetLocation(324,1)
+				 timeToArrive(12168)
+				 timeToSpend(26342)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d98: driver.asl {
+		 beliefs: targetLocation(183,3)
+				 timeToArrive(63700)
+				 timeToSpend(6285)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d99: driver.asl {
+		 beliefs: targetLocation(60,17)
+				 timeToArrive(150052)
+				 timeToSpend(11109)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d100: driver.asl {
+		 beliefs: targetLocation(177,40)
+				 timeToArrive(146065)
+				 timeToSpend(19340)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d101: driver.asl {
+		 beliefs: targetLocation(159,4)
+				 timeToArrive(138674)
+				 timeToSpend(20037)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d102: driver.asl {
+		 beliefs: targetLocation(47,10)
+				 timeToArrive(109202)
+				 timeToSpend(22480)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d103: driver.asl {
+		 beliefs: targetLocation(197,11)
+				 timeToArrive(201529)
+				 timeToSpend(10773)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d104: driver.asl {
+		 beliefs: targetLocation(186,48)
+				 timeToArrive(39462)
+				 timeToSpend(26141)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d105: driver.asl {
+		 beliefs: targetLocation(232,40)
+				 timeToArrive(190110)
+				 timeToSpend(14165)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d106: driver.asl {
+		 beliefs: targetLocation(127,28)
+				 timeToArrive(11390)
+				 timeToSpend(24816)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d107: driver.asl {
+		 beliefs: targetLocation(373,42)
+				 timeToArrive(169325)
+				 timeToSpend(22832)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d108: driver.asl {
+		 beliefs: targetLocation(25,59)
+				 timeToArrive(96813)
+				 timeToSpend(10361)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d109: driver.asl {
+		 beliefs: targetLocation(200,30)
+				 timeToArrive(150400)
+				 timeToSpend(7026)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d110: driver.asl {
+		 beliefs: targetLocation(185,40)
+				 timeToArrive(157798)
+				 timeToSpend(18185)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d111: driver.asl {
+		 beliefs: targetLocation(35,34)
+				 timeToArrive(175077)
+				 timeToSpend(23617)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d112: driver.asl {
+		 beliefs: targetLocation(238,38)
+				 timeToArrive(146002)
+				 timeToSpend(22683)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d113: driver.asl {
+		 beliefs: targetLocation(119,39)
+				 timeToArrive(51355)
+				 timeToSpend(20998)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d114: driver.asl {
+		 beliefs: targetLocation(205,0)
+				 timeToArrive(234039)
+				 timeToSpend(7164)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d115: driver.asl {
+		 beliefs: targetLocation(360,56)
+				 timeToArrive(100981)
+				 timeToSpend(22131)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d116: driver.asl {
+		 beliefs: targetLocation(25,48)
+				 timeToArrive(41217)
+				 timeToSpend(28900)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d117: driver.asl {
+		 beliefs: targetLocation(140,50)
+				 timeToArrive(140885)
+				 timeToSpend(17635)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d118: driver.asl {
+		 beliefs: targetLocation(43,23)
+				 timeToArrive(161628)
+				 timeToSpend(15548)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d119: driver.asl {
+		 beliefs: targetLocation(140,35)
+				 timeToArrive(239313)
+				 timeToSpend(17934)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d120: driver.asl {
+		 beliefs: targetLocation(379,32)
+				 timeToArrive(145719)
+				 timeToSpend(23111)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d121: driver.asl {
+		 beliefs: targetLocation(66,21)
+				 timeToArrive(216498)
+				 timeToSpend(17036)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d122: driver.asl {
+		 beliefs: targetLocation(308,18)
+				 timeToArrive(57090)
+				 timeToSpend(9843)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d123: driver.asl {
+		 beliefs: targetLocation(121,34)
+				 timeToArrive(247551)
+				 timeToSpend(25511)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d124: driver.asl {
+		 beliefs: targetLocation(371,24)
+				 timeToArrive(103136)
+				 timeToSpend(6439)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d125: driver.asl {
+		 beliefs: targetLocation(336,20)
+				 timeToArrive(183126)
+				 timeToSpend(8900)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d126: driver.asl {
+		 beliefs: targetLocation(40,21)
+				 timeToArrive(6709)
+				 timeToSpend(28580)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d127: driver.asl {
+		 beliefs: targetLocation(358,52)
+				 timeToArrive(202627)
+				 timeToSpend(23824)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d128: driver.asl {
+		 beliefs: targetLocation(308,8)
+				 timeToArrive(164537)
+				 timeToSpend(29894)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d129: driver.asl {
+		 beliefs: targetLocation(175,27)
+				 timeToArrive(241943)
+				 timeToSpend(28852)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d130: driver.asl {
+		 beliefs: targetLocation(25,50)
+				 timeToArrive(214659)
+				 timeToSpend(24002)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d131: driver.asl {
+		 beliefs: targetLocation(141,29)
+				 timeToArrive(19409)
+				 timeToSpend(7090)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d132: driver.asl {
+		 beliefs: targetLocation(61,40)
+				 timeToArrive(167295)
+				 timeToSpend(14791)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d133: driver.asl {
+		 beliefs: targetLocation(71,55)
+				 timeToArrive(20455)
+				 timeToSpend(23471)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d134: driver.asl {
+		 beliefs: targetLocation(326,0)
+				 timeToArrive(147176)
+				 timeToSpend(23319)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d135: driver.asl {
+		 beliefs: targetLocation(389,2)
+				 timeToArrive(236062)
+				 timeToSpend(10441)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d136: driver.asl {
+		 beliefs: targetLocation(30,40)
+				 timeToArrive(214429)
+				 timeToSpend(22916)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d137: driver.asl {
+		 beliefs: targetLocation(17,5)
+				 timeToArrive(103069)
+				 timeToSpend(19417)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d138: driver.asl {
+		 beliefs: targetLocation(0,52)
+				 timeToArrive(107871)
+				 timeToSpend(28045)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d139: driver.asl {
+		 beliefs: targetLocation(231,29)
+				 timeToArrive(201182)
+				 timeToSpend(12888)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d140: driver.asl {
+		 beliefs: targetLocation(57,47)
+				 timeToArrive(168065)
+				 timeToSpend(21144)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d141: driver.asl {
+		 beliefs: targetLocation(117,24)
+				 timeToArrive(210445)
+				 timeToSpend(19610)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d142: driver.asl {
+		 beliefs: targetLocation(263,26)
+				 timeToArrive(87607)
+				 timeToSpend(5303)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d143: driver.asl {
+		 beliefs: targetLocation(267,56)
+				 timeToArrive(178262)
+				 timeToSpend(6199)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d144: driver.asl {
+		 beliefs: targetLocation(365,10)
+				 timeToArrive(30215)
+				 timeToSpend(19781)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d145: driver.asl {
+		 beliefs: targetLocation(172,2)
+				 timeToArrive(53514)
+				 timeToSpend(15471)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d146: driver.asl {
+		 beliefs: targetLocation(348,5)
+				 timeToArrive(234074)
+				 timeToSpend(22784)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d147: driver.asl {
+		 beliefs: targetLocation(315,45)
+				 timeToArrive(225962)
+				 timeToSpend(20971)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d148: driver.asl {
+		 beliefs: targetLocation(43,21)
+				 timeToArrive(110683)
+				 timeToSpend(21310)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d149: driver.asl {
+		 beliefs: targetLocation(254,14)
+				 timeToArrive(212058)
+				 timeToSpend(14561)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d150: driver.asl {
+		 beliefs: targetLocation(304,25)
+				 timeToArrive(243638)
+				 timeToSpend(17257)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d151: driver.asl {
+		 beliefs: targetLocation(206,52)
+				 timeToArrive(78863)
+				 timeToSpend(22206)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d152: driver.asl {
+		 beliefs: targetLocation(356,18)
+				 timeToArrive(84554)
+				 timeToSpend(29413)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d153: driver.asl {
+		 beliefs: targetLocation(228,3)
+				 timeToArrive(158353)
+				 timeToSpend(24059)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d154: driver.asl {
+		 beliefs: targetLocation(259,47)
+				 timeToArrive(61463)
+				 timeToSpend(15151)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d155: driver.asl {
+		 beliefs: targetLocation(77,42)
+				 timeToArrive(210761)
+				 timeToSpend(22769)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d156: driver.asl {
+		 beliefs: targetLocation(313,58)
+				 timeToArrive(129936)
+				 timeToSpend(21773)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d157: driver.asl {
+		 beliefs: targetLocation(103,34)
+				 timeToArrive(185859)
+				 timeToSpend(18823)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d158: driver.asl {
+		 beliefs: targetLocation(261,9)
+				 timeToArrive(217002)
+				 timeToSpend(24482)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d159: driver.asl {
+		 beliefs: targetLocation(209,19)
+				 timeToArrive(63357)
+				 timeToSpend(29417)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d160: driver.asl {
+		 beliefs: targetLocation(281,2)
+				 timeToArrive(72011)
+				 timeToSpend(19704)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d161: driver.asl {
+		 beliefs: targetLocation(270,51)
+				 timeToArrive(165974)
+				 timeToSpend(21408)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d162: driver.asl {
+		 beliefs: targetLocation(359,48)
+				 timeToArrive(107291)
+				 timeToSpend(26733)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d163: driver.asl {
+		 beliefs: targetLocation(98,12)
+				 timeToArrive(233407)
+				 timeToSpend(25230)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d164: driver.asl {
+		 beliefs: targetLocation(133,55)
+				 timeToArrive(85061)
+				 timeToSpend(6697)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d165: driver.asl {
+		 beliefs: targetLocation(19,40)
+				 timeToArrive(155709)
+				 timeToSpend(23272)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d166: driver.asl {
+		 beliefs: targetLocation(42,52)
+				 timeToArrive(96006)
+				 timeToSpend(8556)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d167: driver.asl {
+		 beliefs: targetLocation(392,4)
+				 timeToArrive(55588)
+				 timeToSpend(8212)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d168: driver.asl {
+		 beliefs: targetLocation(94,43)
+				 timeToArrive(234829)
+				 timeToSpend(13994)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d169: driver.asl {
+		 beliefs: targetLocation(61,48)
+				 timeToArrive(173037)
+				 timeToSpend(8810)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d170: driver.asl {
+		 beliefs: targetLocation(221,55)
+				 timeToArrive(80665)
+				 timeToSpend(7632)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d171: driver.asl {
+		 beliefs: targetLocation(365,38)
+				 timeToArrive(153392)
+				 timeToSpend(29965)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d172: driver.asl {
+		 beliefs: targetLocation(292,26)
+				 timeToArrive(220094)
+				 timeToSpend(22918)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d173: driver.asl {
+		 beliefs: targetLocation(342,32)
+				 timeToArrive(247978)
+				 timeToSpend(14601)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d174: driver.asl {
+		 beliefs: targetLocation(2,23)
+				 timeToArrive(6927)
+				 timeToSpend(18884)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d175: driver.asl {
+		 beliefs: targetLocation(280,12)
+				 timeToArrive(34296)
+				 timeToSpend(8444)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d176: driver.asl {
+		 beliefs: targetLocation(72,18)
+				 timeToArrive(92373)
+				 timeToSpend(13078)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d177: driver.asl {
+		 beliefs: targetLocation(133,0)
+				 timeToArrive(128122)
+				 timeToSpend(19774)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d178: driver.asl {
+		 beliefs: targetLocation(377,36)
+				 timeToArrive(142454)
+				 timeToSpend(17434)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d179: driver.asl {
+		 beliefs: targetLocation(18,45)
+				 timeToArrive(174160)
+				 timeToSpend(11074)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d180: driver.asl {
+		 beliefs: targetLocation(234,33)
+				 timeToArrive(164206)
+				 timeToSpend(15303)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d181: driver.asl {
+		 beliefs: targetLocation(4,45)
+				 timeToArrive(107664)
+				 timeToSpend(15773)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d182: driver.asl {
+		 beliefs: targetLocation(210,27)
+				 timeToArrive(239897)
+				 timeToSpend(21070)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d183: driver.asl {
+		 beliefs: targetLocation(308,7)
+				 timeToArrive(16477)
+				 timeToSpend(6908)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d184: driver.asl {
+		 beliefs: targetLocation(299,38)
+				 timeToArrive(115110)
+				 timeToSpend(17274)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d185: driver.asl {
+		 beliefs: targetLocation(219,7)
+				 timeToArrive(128465)
+				 timeToSpend(13360)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d186: driver.asl {
+		 beliefs: targetLocation(223,51)
+				 timeToArrive(33557)
+				 timeToSpend(28809)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d187: driver.asl {
+		 beliefs: targetLocation(214,41)
+				 timeToArrive(232052)
+				 timeToSpend(27658)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d188: driver.asl {
+		 beliefs: targetLocation(315,59)
+				 timeToArrive(46553)
+				 timeToSpend(12802)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d189: driver.asl {
+		 beliefs: targetLocation(306,4)
+				 timeToArrive(81329)
+				 timeToSpend(27912)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d190: driver.asl {
+		 beliefs: targetLocation(30,34)
+				 timeToArrive(191111)
+				 timeToSpend(29078)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d191: driver.asl {
+		 beliefs: targetLocation(0,8)
+				 timeToArrive(25736)
+				 timeToSpend(7048)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d192: driver.asl {
+		 beliefs: targetLocation(298,42)
+				 timeToArrive(199429)
+				 timeToSpend(15361)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d193: driver.asl {
+		 beliefs: targetLocation(18,26)
+				 timeToArrive(137142)
+				 timeToSpend(19730)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d194: driver.asl {
+		 beliefs: targetLocation(386,16)
+				 timeToArrive(201099)
+				 timeToSpend(5919)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d195: driver.asl {
+		 beliefs: targetLocation(220,49)
+				 timeToArrive(28574)
+				 timeToSpend(17713)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d196: driver.asl {
+		 beliefs: targetLocation(250,44)
+				 timeToArrive(233812)
+				 timeToSpend(15801)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d197: driver.asl {
+		 beliefs: targetLocation(339,32)
+				 timeToArrive(186691)
+				 timeToSpend(18279)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d198: driver.asl {
+		 beliefs: targetLocation(42,50)
+				 timeToArrive(64125)
+				 timeToSpend(26520)
+				 maxValue(10)
+				 maxDistance(25)
+				 rangeAccording(0.2)
+		 focus: parkingLot_org.jacamo_team
+	}
+	agent d199: driver.asl {
+		 beliefs: targetLocation(209,44)
+				 timeToArrive(102859)
+				 timeToSpend(13917)
 				 maxValue(10)
 				 maxDistance(25)
 				 rangeAccording(0.2)
@@ -181,819 +1801,817 @@ mas descentralizedMAPS {
 	}
 
 	agent spotA0: parkingSpotController.asl{
-			beliefs: location(100.00,6.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA1: parkingSpotController.asl{
-			beliefs: location(135.00,3.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA2: parkingSpotController.asl{
-			beliefs: location(100.00,11.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA3: parkingSpotController.asl{
-			beliefs: location(135.00,8.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA4: parkingSpotController.asl{
-			beliefs: location(100.00,16.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA5: parkingSpotController.asl{
-			beliefs: location(135.00,13.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA6: parkingSpotController.asl{
-			beliefs: location(100.00,21.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA7: parkingSpotController.asl{
-			beliefs: location(135.00,18.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA8: parkingSpotController.asl{
-			beliefs: location(100.00,26.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotA9: parkingSpotController.asl{
-			beliefs: location(135.00,23.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB0: parkingSpotController.asl{
-			beliefs: location(100.00,31.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB1: parkingSpotController.asl{
-			beliefs: location(135.00,28.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB2: parkingSpotController.asl{
-			beliefs: location(100.00,36.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB3: parkingSpotController.asl{
-			beliefs: location(135.00,33.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB4: parkingSpotController.asl{
-			beliefs: location(100.00,41.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB5: parkingSpotController.asl{
-			beliefs: location(135.00,38.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB6: parkingSpotController.asl{
-			beliefs: location(100.00,46.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB7: parkingSpotController.asl{
-			beliefs: location(135.00,43.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB8: parkingSpotController.asl{
-			beliefs: location(100.00,51.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB9: parkingSpotController.asl{
-			beliefs: location(135.00,48.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB10: parkingSpotController.asl{
-			beliefs: location(135.00,6.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB11: parkingSpotController.asl{
-			beliefs: location(170.00,3.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB12: parkingSpotController.asl{
-			beliefs: location(135.00,11.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB13: parkingSpotController.asl{
-			beliefs: location(170.00,8.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB14: parkingSpotController.asl{
-			beliefs: location(135.00,16.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB15: parkingSpotController.asl{
-			beliefs: location(170.00,13.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB16: parkingSpotController.asl{
-			beliefs: location(135.00,21.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB17: parkingSpotController.asl{
-			beliefs: location(170.00,18.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB18: parkingSpotController.asl{
-			beliefs: location(135.00,26.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotB19: parkingSpotController.asl{
-			beliefs: location(170.00,23.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC0: parkingSpotController.asl{
-			beliefs: location(135.00,31.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC1: parkingSpotController.asl{
-			beliefs: location(170.00,28.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC2: parkingSpotController.asl{
-			beliefs: location(135.00,36.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC3: parkingSpotController.asl{
-			beliefs: location(170.00,33.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC4: parkingSpotController.asl{
-			beliefs: location(135.00,41.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC5: parkingSpotController.asl{
-			beliefs: location(170.00,38.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC6: parkingSpotController.asl{
-			beliefs: location(135.00,46.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC7: parkingSpotController.asl{
-			beliefs: location(170.00,43.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC8: parkingSpotController.asl{
-			beliefs: location(135.00,51.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC9: parkingSpotController.asl{
-			beliefs: location(170.00,48.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC10: parkingSpotController.asl{
-			beliefs: location(170.00,6.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC11: parkingSpotController.asl{
-			beliefs: location(205.00,3.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC12: parkingSpotController.asl{
-			beliefs: location(170.00,11.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC13: parkingSpotController.asl{
-			beliefs: location(205.00,8.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC14: parkingSpotController.asl{
-			beliefs: location(170.00,16.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC15: parkingSpotController.asl{
-			beliefs: location(205.00,13.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC16: parkingSpotController.asl{
-			beliefs: location(170.00,21.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC17: parkingSpotController.asl{
-			beliefs: location(205.00,18.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC18: parkingSpotController.asl{
-			beliefs: location(170.00,26.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotC19: parkingSpotController.asl{
-			beliefs: location(205.00,23.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD0: parkingSpotController.asl{
-			beliefs: location(170.00,31.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD1: parkingSpotController.asl{
-			beliefs: location(205.00,28.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD2: parkingSpotController.asl{
-			beliefs: location(170.00,36.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD3: parkingSpotController.asl{
-			beliefs: location(205.00,33.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD4: parkingSpotController.asl{
-			beliefs: location(170.00,41.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD5: parkingSpotController.asl{
-			beliefs: location(205.00,38.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD6: parkingSpotController.asl{
-			beliefs: location(170.00,46.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD7: parkingSpotController.asl{
-			beliefs: location(205.00,43.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD8: parkingSpotController.asl{
-			beliefs: location(170.00,51.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD9: parkingSpotController.asl{
-			beliefs: location(205.00,48.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD10: parkingSpotController.asl{
-			beliefs: location(205.00,6.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD11: parkingSpotController.asl{
-			beliefs: location(240.00,3.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD12: parkingSpotController.asl{
-			beliefs: location(205.00,11.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD13: parkingSpotController.asl{
-			beliefs: location(240.00,8.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD14: parkingSpotController.asl{
-			beliefs: location(205.00,16.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD15: parkingSpotController.asl{
-			beliefs: location(240.00,13.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD16: parkingSpotController.asl{
-			beliefs: location(205.00,21.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD17: parkingSpotController.asl{
-			beliefs: location(240.00,18.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD18: parkingSpotController.asl{
-			beliefs: location(205.00,26.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotD19: parkingSpotController.asl{
-			beliefs: location(240.00,23.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE0: parkingSpotController.asl{
-			beliefs: location(205.00,31.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE1: parkingSpotController.asl{
-			beliefs: location(240.00,28.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE2: parkingSpotController.asl{
-			beliefs: location(205.00,36.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE3: parkingSpotController.asl{
-			beliefs: location(240.00,33.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE4: parkingSpotController.asl{
-			beliefs: location(205.00,41.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE5: parkingSpotController.asl{
-			beliefs: location(240.00,38.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE6: parkingSpotController.asl{
-			beliefs: location(205.00,46.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE7: parkingSpotController.asl{
-			beliefs: location(240.00,43.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE8: parkingSpotController.asl{
-			beliefs: location(205.00,51.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE9: parkingSpotController.asl{
-			beliefs: location(240.00,48.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE10: parkingSpotController.asl{
-			beliefs: location(240.00,6.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE11: parkingSpotController.asl{
-			beliefs: location(275.00,3.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE12: parkingSpotController.asl{
-			beliefs: location(240.00,11.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE13: parkingSpotController.asl{
-			beliefs: location(275.00,8.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE14: parkingSpotController.asl{
-			beliefs: location(240.00,16.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE15: parkingSpotController.asl{
-			beliefs: location(275.00,13.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE16: parkingSpotController.asl{
-			beliefs: location(240.00,21.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE17: parkingSpotController.asl{
-			beliefs: location(275.00,18.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE18: parkingSpotController.asl{
-			beliefs: location(240.00,26.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotE19: parkingSpotController.asl{
-			beliefs: location(275.00,23.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF0: parkingSpotController.asl{
-			beliefs: location(240.00,31.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF1: parkingSpotController.asl{
-			beliefs: location(275.00,28.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF2: parkingSpotController.asl{
-			beliefs: location(240.00,36.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF3: parkingSpotController.asl{
-			beliefs: location(275.00,33.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF4: parkingSpotController.asl{
-			beliefs: location(240.00,41.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF5: parkingSpotController.asl{
-			beliefs: location(275.00,38.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF6: parkingSpotController.asl{
-			beliefs: location(240.00,46.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF7: parkingSpotController.asl{
-			beliefs: location(275.00,43.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF8: parkingSpotController.asl{
-			beliefs: location(240.00,51.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF9: parkingSpotController.asl{
-			beliefs: location(275.00,48.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF10: parkingSpotController.asl{
-			beliefs: location(275.00,6.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF11: parkingSpotController.asl{
-			beliefs: location(310.00,3.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF12: parkingSpotController.asl{
-			beliefs: location(275.00,11.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF13: parkingSpotController.asl{
-			beliefs: location(310.00,8.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF14: parkingSpotController.asl{
-			beliefs: location(275.00,16.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF15: parkingSpotController.asl{
-			beliefs: location(310.00,13.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF16: parkingSpotController.asl{
-			beliefs: location(275.00,21.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF17: parkingSpotController.asl{
-			beliefs: location(310.00,18.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF18: parkingSpotController.asl{
-			beliefs: location(275.00,26.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotF19: parkingSpotController.asl{
-			beliefs: location(310.00,23.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG0: parkingSpotController.asl{
-			beliefs: location(275.00,31.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG1: parkingSpotController.asl{
-			beliefs: location(310.00,28.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG2: parkingSpotController.asl{
-			beliefs: location(275.00,36.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG3: parkingSpotController.asl{
-			beliefs: location(310.00,33.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG4: parkingSpotController.asl{
-			beliefs: location(275.00,41.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG5: parkingSpotController.asl{
-			beliefs: location(310.00,38.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG6: parkingSpotController.asl{
-			beliefs: location(275.00,46.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG7: parkingSpotController.asl{
-			beliefs: location(310.00,43.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG8: parkingSpotController.asl{
-			beliefs: location(275.00,51.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG9: parkingSpotController.asl{
-			beliefs: location(310.00,48.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG10: parkingSpotController.asl{
-			beliefs: location(310.00,6.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG11: parkingSpotController.asl{
-			beliefs: location(345.00,3.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG12: parkingSpotController.asl{
-			beliefs: location(310.00,11.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG13: parkingSpotController.asl{
-			beliefs: location(345.00,8.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG14: parkingSpotController.asl{
-			beliefs: location(310.00,16.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG15: parkingSpotController.asl{
-			beliefs: location(345.00,13.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG16: parkingSpotController.asl{
-			beliefs: location(310.00,21.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG17: parkingSpotController.asl{
-			beliefs: location(345.00,18.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG18: parkingSpotController.asl{
-			beliefs: location(310.00,26.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotG19: parkingSpotController.asl{
-			beliefs: location(345.00,23.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH0: parkingSpotController.asl{
-			beliefs: location(310.00,31.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH1: parkingSpotController.asl{
-			beliefs: location(345.00,28.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH2: parkingSpotController.asl{
-			beliefs: location(310.00,36.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH3: parkingSpotController.asl{
-			beliefs: location(345.00,33.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH4: parkingSpotController.asl{
-			beliefs: location(310.00,41.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH5: parkingSpotController.asl{
-			beliefs: location(345.00,38.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH6: parkingSpotController.asl{
-			beliefs: location(310.00,46.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH7: parkingSpotController.asl{
-			beliefs: location(345.00,43.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH8: parkingSpotController.asl{
-			beliefs: location(310.00,51.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH9: parkingSpotController.asl{
-			beliefs: location(345.00,48.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH10: parkingSpotController.asl{
-			beliefs: location(345.00,6.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH11: parkingSpotController.asl{
-			beliefs: location(380.00,3.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH12: parkingSpotController.asl{
-			beliefs: location(345.00,11.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH13: parkingSpotController.asl{
-			beliefs: location(380.00,8.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH14: parkingSpotController.asl{
-			beliefs: location(345.00,16.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH15: parkingSpotController.asl{
-			beliefs: location(380.00,13.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH16: parkingSpotController.asl{
-			beliefs: location(345.00,21.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH17: parkingSpotController.asl{
-			beliefs: location(380.00,18.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH18: parkingSpotController.asl{
-			beliefs: location(345.00,26.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotH19: parkingSpotController.asl{
-			beliefs: location(380.00,23.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI0: parkingSpotController.asl{
-			beliefs: location(345.00,31.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI1: parkingSpotController.asl{
-			beliefs: location(380.00,28.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI2: parkingSpotController.asl{
-			beliefs: location(345.00,36.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI3: parkingSpotController.asl{
-			beliefs: location(380.00,33.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI4: parkingSpotController.asl{
-			beliefs: location(345.00,41.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI5: parkingSpotController.asl{
-			beliefs: location(380.00,38.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI6: parkingSpotController.asl{
-			beliefs: location(345.00,46.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI7: parkingSpotController.asl{
-			beliefs: location(380.00,43.35)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI8: parkingSpotController.asl{
-			beliefs: location(345.00,51.65)
-				occupied(false)
-				averageSaleValue(6)
-	} 
-	agent spotI9: parkingSpotController.asl{
-			beliefs: location(380.00,48.35)
-				occupied(false)
-				averageSaleValue(6)
+		beliefs: location(100.00,6.65)
+			occupied(false)
+			averageSaleValue(6)
 	}
-	
+	agent spotA1: parkingSpotController.asl{
+		beliefs: location(135.00,3.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotA2: parkingSpotController.asl{
+		beliefs: location(100.00,11.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotA3: parkingSpotController.asl{
+		beliefs: location(135.00,8.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotA4: parkingSpotController.asl{
+		beliefs: location(100.00,16.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotA5: parkingSpotController.asl{
+		beliefs: location(135.00,13.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotA6: parkingSpotController.asl{
+		beliefs: location(100.00,21.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotA7: parkingSpotController.asl{
+		beliefs: location(135.00,18.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotA8: parkingSpotController.asl{
+		beliefs: location(100.00,26.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotA9: parkingSpotController.asl{
+		beliefs: location(135.00,23.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB0: parkingSpotController.asl{
+		beliefs: location(100.00,31.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB1: parkingSpotController.asl{
+		beliefs: location(135.00,28.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB2: parkingSpotController.asl{
+		beliefs: location(100.00,36.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB3: parkingSpotController.asl{
+		beliefs: location(135.00,33.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB4: parkingSpotController.asl{
+		beliefs: location(100.00,41.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB5: parkingSpotController.asl{
+		beliefs: location(135.00,38.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB6: parkingSpotController.asl{
+		beliefs: location(100.00,46.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB7: parkingSpotController.asl{
+		beliefs: location(135.00,43.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB8: parkingSpotController.asl{
+		beliefs: location(100.00,51.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB9: parkingSpotController.asl{
+		beliefs: location(135.00,48.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB10: parkingSpotController.asl{
+		beliefs: location(135.00,6.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB11: parkingSpotController.asl{
+		beliefs: location(170.00,3.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB12: parkingSpotController.asl{
+		beliefs: location(135.00,11.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB13: parkingSpotController.asl{
+		beliefs: location(170.00,8.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB14: parkingSpotController.asl{
+		beliefs: location(135.00,16.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB15: parkingSpotController.asl{
+		beliefs: location(170.00,13.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB16: parkingSpotController.asl{
+		beliefs: location(135.00,21.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB17: parkingSpotController.asl{
+		beliefs: location(170.00,18.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB18: parkingSpotController.asl{
+		beliefs: location(135.00,26.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotB19: parkingSpotController.asl{
+		beliefs: location(170.00,23.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC0: parkingSpotController.asl{
+		beliefs: location(135.00,31.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC1: parkingSpotController.asl{
+		beliefs: location(170.00,28.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC2: parkingSpotController.asl{
+		beliefs: location(135.00,36.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC3: parkingSpotController.asl{
+		beliefs: location(170.00,33.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC4: parkingSpotController.asl{
+		beliefs: location(135.00,41.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC5: parkingSpotController.asl{
+		beliefs: location(170.00,38.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC6: parkingSpotController.asl{
+		beliefs: location(135.00,46.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC7: parkingSpotController.asl{
+		beliefs: location(170.00,43.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC8: parkingSpotController.asl{
+		beliefs: location(135.00,51.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC9: parkingSpotController.asl{
+		beliefs: location(170.00,48.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC10: parkingSpotController.asl{
+		beliefs: location(170.00,6.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC11: parkingSpotController.asl{
+		beliefs: location(205.00,3.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC12: parkingSpotController.asl{
+		beliefs: location(170.00,11.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC13: parkingSpotController.asl{
+		beliefs: location(205.00,8.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC14: parkingSpotController.asl{
+		beliefs: location(170.00,16.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC15: parkingSpotController.asl{
+		beliefs: location(205.00,13.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC16: parkingSpotController.asl{
+		beliefs: location(170.00,21.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC17: parkingSpotController.asl{
+		beliefs: location(205.00,18.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC18: parkingSpotController.asl{
+		beliefs: location(170.00,26.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotC19: parkingSpotController.asl{
+		beliefs: location(205.00,23.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD0: parkingSpotController.asl{
+		beliefs: location(170.00,31.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD1: parkingSpotController.asl{
+		beliefs: location(205.00,28.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD2: parkingSpotController.asl{
+		beliefs: location(170.00,36.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD3: parkingSpotController.asl{
+		beliefs: location(205.00,33.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD4: parkingSpotController.asl{
+		beliefs: location(170.00,41.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD5: parkingSpotController.asl{
+		beliefs: location(205.00,38.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD6: parkingSpotController.asl{
+		beliefs: location(170.00,46.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD7: parkingSpotController.asl{
+		beliefs: location(205.00,43.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD8: parkingSpotController.asl{
+		beliefs: location(170.00,51.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD9: parkingSpotController.asl{
+		beliefs: location(205.00,48.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD10: parkingSpotController.asl{
+		beliefs: location(205.00,6.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD11: parkingSpotController.asl{
+		beliefs: location(240.00,3.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD12: parkingSpotController.asl{
+		beliefs: location(205.00,11.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD13: parkingSpotController.asl{
+		beliefs: location(240.00,8.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD14: parkingSpotController.asl{
+		beliefs: location(205.00,16.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD15: parkingSpotController.asl{
+		beliefs: location(240.00,13.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD16: parkingSpotController.asl{
+		beliefs: location(205.00,21.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD17: parkingSpotController.asl{
+		beliefs: location(240.00,18.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD18: parkingSpotController.asl{
+		beliefs: location(205.00,26.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotD19: parkingSpotController.asl{
+		beliefs: location(240.00,23.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE0: parkingSpotController.asl{
+		beliefs: location(205.00,31.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE1: parkingSpotController.asl{
+		beliefs: location(240.00,28.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE2: parkingSpotController.asl{
+		beliefs: location(205.00,36.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE3: parkingSpotController.asl{
+		beliefs: location(240.00,33.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE4: parkingSpotController.asl{
+		beliefs: location(205.00,41.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE5: parkingSpotController.asl{
+		beliefs: location(240.00,38.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE6: parkingSpotController.asl{
+		beliefs: location(205.00,46.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE7: parkingSpotController.asl{
+		beliefs: location(240.00,43.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE8: parkingSpotController.asl{
+		beliefs: location(205.00,51.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE9: parkingSpotController.asl{
+		beliefs: location(240.00,48.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE10: parkingSpotController.asl{
+		beliefs: location(240.00,6.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE11: parkingSpotController.asl{
+		beliefs: location(275.00,3.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE12: parkingSpotController.asl{
+		beliefs: location(240.00,11.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE13: parkingSpotController.asl{
+		beliefs: location(275.00,8.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE14: parkingSpotController.asl{
+		beliefs: location(240.00,16.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE15: parkingSpotController.asl{
+		beliefs: location(275.00,13.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE16: parkingSpotController.asl{
+		beliefs: location(240.00,21.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE17: parkingSpotController.asl{
+		beliefs: location(275.00,18.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE18: parkingSpotController.asl{
+		beliefs: location(240.00,26.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotE19: parkingSpotController.asl{
+		beliefs: location(275.00,23.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF0: parkingSpotController.asl{
+		beliefs: location(240.00,31.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF1: parkingSpotController.asl{
+		beliefs: location(275.00,28.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF2: parkingSpotController.asl{
+		beliefs: location(240.00,36.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF3: parkingSpotController.asl{
+		beliefs: location(275.00,33.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF4: parkingSpotController.asl{
+		beliefs: location(240.00,41.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF5: parkingSpotController.asl{
+		beliefs: location(275.00,38.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF6: parkingSpotController.asl{
+		beliefs: location(240.00,46.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF7: parkingSpotController.asl{
+		beliefs: location(275.00,43.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF8: parkingSpotController.asl{
+		beliefs: location(240.00,51.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF9: parkingSpotController.asl{
+		beliefs: location(275.00,48.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF10: parkingSpotController.asl{
+		beliefs: location(275.00,6.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF11: parkingSpotController.asl{
+		beliefs: location(310.00,3.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF12: parkingSpotController.asl{
+		beliefs: location(275.00,11.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF13: parkingSpotController.asl{
+		beliefs: location(310.00,8.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF14: parkingSpotController.asl{
+		beliefs: location(275.00,16.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF15: parkingSpotController.asl{
+		beliefs: location(310.00,13.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF16: parkingSpotController.asl{
+		beliefs: location(275.00,21.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF17: parkingSpotController.asl{
+		beliefs: location(310.00,18.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF18: parkingSpotController.asl{
+		beliefs: location(275.00,26.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotF19: parkingSpotController.asl{
+		beliefs: location(310.00,23.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG0: parkingSpotController.asl{
+		beliefs: location(275.00,31.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG1: parkingSpotController.asl{
+		beliefs: location(310.00,28.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG2: parkingSpotController.asl{
+		beliefs: location(275.00,36.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG3: parkingSpotController.asl{
+		beliefs: location(310.00,33.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG4: parkingSpotController.asl{
+		beliefs: location(275.00,41.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG5: parkingSpotController.asl{
+		beliefs: location(310.00,38.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG6: parkingSpotController.asl{
+		beliefs: location(275.00,46.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG7: parkingSpotController.asl{
+		beliefs: location(310.00,43.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG8: parkingSpotController.asl{
+		beliefs: location(275.00,51.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG9: parkingSpotController.asl{
+		beliefs: location(310.00,48.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG10: parkingSpotController.asl{
+		beliefs: location(310.00,6.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG11: parkingSpotController.asl{
+		beliefs: location(345.00,3.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG12: parkingSpotController.asl{
+		beliefs: location(310.00,11.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG13: parkingSpotController.asl{
+		beliefs: location(345.00,8.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG14: parkingSpotController.asl{
+		beliefs: location(310.00,16.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG15: parkingSpotController.asl{
+		beliefs: location(345.00,13.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG16: parkingSpotController.asl{
+		beliefs: location(310.00,21.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG17: parkingSpotController.asl{
+		beliefs: location(345.00,18.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG18: parkingSpotController.asl{
+		beliefs: location(310.00,26.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotG19: parkingSpotController.asl{
+		beliefs: location(345.00,23.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH0: parkingSpotController.asl{
+		beliefs: location(310.00,31.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH1: parkingSpotController.asl{
+		beliefs: location(345.00,28.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH2: parkingSpotController.asl{
+		beliefs: location(310.00,36.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH3: parkingSpotController.asl{
+		beliefs: location(345.00,33.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH4: parkingSpotController.asl{
+		beliefs: location(310.00,41.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH5: parkingSpotController.asl{
+		beliefs: location(345.00,38.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH6: parkingSpotController.asl{
+		beliefs: location(310.00,46.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH7: parkingSpotController.asl{
+		beliefs: location(345.00,43.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH8: parkingSpotController.asl{
+		beliefs: location(310.00,51.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH9: parkingSpotController.asl{
+		beliefs: location(345.00,48.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH10: parkingSpotController.asl{
+		beliefs: location(345.00,6.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH11: parkingSpotController.asl{
+		beliefs: location(380.00,3.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH12: parkingSpotController.asl{
+		beliefs: location(345.00,11.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH13: parkingSpotController.asl{
+		beliefs: location(380.00,8.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH14: parkingSpotController.asl{
+		beliefs: location(345.00,16.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH15: parkingSpotController.asl{
+		beliefs: location(380.00,13.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH16: parkingSpotController.asl{
+		beliefs: location(345.00,21.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH17: parkingSpotController.asl{
+		beliefs: location(380.00,18.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH18: parkingSpotController.asl{
+		beliefs: location(345.00,26.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotH19: parkingSpotController.asl{
+		beliefs: location(380.00,23.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI0: parkingSpotController.asl{
+		beliefs: location(345.00,31.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI1: parkingSpotController.asl{
+		beliefs: location(380.00,28.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI2: parkingSpotController.asl{
+		beliefs: location(345.00,36.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI3: parkingSpotController.asl{
+		beliefs: location(380.00,33.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI4: parkingSpotController.asl{
+		beliefs: location(345.00,41.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI5: parkingSpotController.asl{
+		beliefs: location(380.00,38.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI6: parkingSpotController.asl{
+		beliefs: location(345.00,46.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI7: parkingSpotController.asl{
+		beliefs: location(380.00,43.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI8: parkingSpotController.asl{
+		beliefs: location(345.00,51.65)
+			occupied(false)
+			averageSaleValue(6)
+	}
+	agent spotI9: parkingSpotController.asl{
+		beliefs: location(380.00,48.35)
+			occupied(false)
+			averageSaleValue(6)
+	}
 	workspace parkingLot {
 		artifact proposalGenerator : proposal.ProposalGenerator {
-			focused-by: d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20
+			focused-by: d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31,d32,d33,d34,d35,d36,d37,d38,d39,d40,d41,d42,d43,d44,d45,d46,d47,d48,d49,d50,d51,d52,d53,d54,d55,d56,d57,d58,d59,d60,d61,d62,d63,d64,d65,d66,d67,d68,d69,d70,d71,d72,d73,d74,d75,d76,d77,d78,d79,d80,d81,d82,d83,d84,d85,d86,d87,d88,d89,d90,d91,d92,d93,d94,d95,d96,d97,d98,d99,d100,d101,d102,d103,d104,d105,d106,d107,d108,d109,d110,d111,d112,d113,d114,d115,d116,d117,d118,d119,d120,d121,d122,d123,d124,d125,d126,d127,d128,d129,d130,d131,d132,d133,d134,d135,d136,d137,d138,d139,d140,d141,d142,d143,d144,d145,d146,d147,d148,d149,d150,d151,d152,d153,d154,d155,d156,d157,d158,d159,d160,d161,d162,d163,d164,d165,d166,d167,d168,d169,d170,d171,d172,d173,d174,d175,d176,d177,d178,d179,d180,d181,d182,d183,d184,d185,d186,d187,d188,d189,d190,d191,d192,d193,d194,d195,d196,d197,d198,d199
+		}
+		artifact simulation : sumo.Simulation {
+			focused-by: d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31,d32,d33,d34,d35,d36,d37,d38,d39,d40,d41,d42,d43,d44,d45,d46,d47,d48,d49,d50,d51,d52,d53,d54,d55,d56,d57,d58,d59,d60,d61,d62,d63,d64,d65,d66,d67,d68,d69,d70,d71,d72,d73,d74,d75,d76,d77,d78,d79,d80,d81,d82,d83,d84,d85,d86,d87,d88,d89,d90,d91,d92,d93,d94,d95,d96,d97,d98,d99,d100,d101,d102,d103,d104,d105,d106,d107,d108,d109,d110,d111,d112,d113,d114,d115,d116,d117,d118,d119,d120,d121,d122,d123,d124,d125,d126,d127,d128,d129,d130,d131,d132,d133,d134,d135,d136,d137,d138,d139,d140,d141,d142,d143,d144,d145,d146,d147,d148,d149,d150,d151,d152,d153,d154,d155,d156,d157,d158,d159,d160,d161,d162,d163,d164,d165,d166,d167,d168,d169,d170,d171,d172,d173,d174,d175,d176,d177,d178,d179,d180,d181,d182,d183,d184,d185,d186,d187,d188,d189,d190,d191,d192,d193,d194,d195,d196,d197,d198,d199
 		}
 		artifact graphicalInterface : graphicalInterface.GraphicalInterface {
-			focused-by: d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,spotA0,spotA1,spotA2,spotA3,spotA4,spotA5,spotA6,spotA7,spotA8,spotA9,spotB0,spotB1,spotB2,spotB3,spotB4,spotB5,spotB6,spotB7,spotB8,spotB9,spotB10,spotB11,spotB12,spotB13,spotB14,spotB15,spotB16,spotB17,spotB18,spotB19,spotC0,spotC1,spotC2,spotC3,spotC4,spotC5,spotC6,spotC7,spotC8,spotC9,spotC10,spotC11,spotC12,spotC13,spotC14,spotC15,spotC16,spotC17,spotC18,spotC19,spotD0,spotD1,spotD2,spotD3,spotD4,spotD5,spotD6,spotD7,spotD8,spotD9,spotD10,spotD11,spotD12,spotD13,spotD14,spotD15,spotD16,spotD17,spotD18,spotD19,spotE0,spotE1,spotE2,spotE3,spotE4,spotE5,spotE6,spotE7,spotE8,spotE9,spotE10,spotE11,spotE12,spotE13,spotE14,spotE15,spotE16,spotE17,spotE18,spotE19,spotF0,spotF1,spotF2,spotF3,spotF4,spotF5,spotF6,spotF7,spotF8,spotF9,spotF10,spotF11,spotF12,spotF13,spotF14,spotF15,spotF16,spotF17,spotF18,spotF19,spotG0,spotG1,spotG2,spotG3,spotG4,spotG5,spotG6,spotG7,spotG8,spotG9,spotG10,spotG11,spotG12,spotG13,spotG14,spotG15,spotG16,spotG17,spotG18,spotG19,spotH0,spotH1,spotH2,spotH3,spotH4,spotH5,spotH6,spotH7,spotH8,spotH9,spotH10,spotH11,spotH12,spotH13,spotH14,spotH15,spotH16,spotH17,spotH18,spotH19,spotI0,spotI1,spotI2,spotI3,spotI4,spotI5,spotI6,spotI7,spotI8,spotI9
+			focused-by: d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31,d32,d33,d34,d35,d36,d37,d38,d39,d40,d41,d42,d43,d44,d45,d46,d47,d48,d49,d50,d51,d52,d53,d54,d55,d56,d57,d58,d59,d60,d61,d62,d63,d64,d65,d66,d67,d68,d69,d70,d71,d72,d73,d74,d75,d76,d77,d78,d79,d80,d81,d82,d83,d84,d85,d86,d87,d88,d89,d90,d91,d92,d93,d94,d95,d96,d97,d98,d99,d100,d101,d102,d103,d104,d105,d106,d107,d108,d109,d110,d111,d112,d113,d114,d115,d116,d117,d118,d119,d120,d121,d122,d123,d124,d125,d126,d127,d128,d129,d130,d131,d132,d133,d134,d135,d136,d137,d138,d139,d140,d141,d142,d143,d144,d145,d146,d147,d148,d149,d150,d151,d152,d153,d154,d155,d156,d157,d158,d159,d160,d161,d162,d163,d164,d165,d166,d167,d168,d169,d170,d171,d172,d173,d174,d175,d176,d177,d178,d179,d180,d181,d182,d183,d184,d185,d186,d187,d188,d189,d190,d191,d192,d193,d194,d195,d196,d197,d198,d199,spotA0,spotA1,spotA2,spotA3,spotA4,spotA5,spotA6,spotA7,spotA8,spotA9,spotB0,spotB1,spotB2,spotB3,spotB4,spotB5,spotB6,spotB7,spotB8,spotB9,spotB10,spotB11,spotB12,spotB13,spotB14,spotB15,spotB16,spotB17,spotB18,spotB19,spotC0,spotC1,spotC2,spotC3,spotC4,spotC5,spotC6,spotC7,spotC8,spotC9,spotC10,spotC11,spotC12,spotC13,spotC14,spotC15,spotC16,spotC17,spotC18,spotC19,spotD0,spotD1,spotD2,spotD3,spotD4,spotD5,spotD6,spotD7,spotD8,spotD9,spotD10,spotD11,spotD12,spotD13,spotD14,spotD15,spotD16,spotD17,spotD18,spotD19,spotE0,spotE1,spotE2,spotE3,spotE4,spotE5,spotE6,spotE7,spotE8,spotE9,spotE10,spotE11,spotE12,spotE13,spotE14,spotE15,spotE16,spotE17,spotE18,spotE19,spotF0,spotF1,spotF2,spotF3,spotF4,spotF5,spotF6,spotF7,spotF8,spotF9,spotF10,spotF11,spotF12,spotF13,spotF14,spotF15,spotF16,spotF17,spotF18,spotF19,spotG0,spotG1,spotG2,spotG3,spotG4,spotG5,spotG6,spotG7,spotG8,spotG9,spotG10,spotG11,spotG12,spotG13,spotG14,spotG15,spotG16,spotG17,spotG18,spotG19,spotH0,spotH1,spotH2,spotH3,spotH4,spotH5,spotH6,spotH7,spotH8,spotH9,spotH10,spotH11,spotH12,spotH13,spotH14,spotH15,spotH16,spotH17,spotH18,spotH19,spotI0,spotI1,spotI2,spotI3,spotI4,spotI5,spotI6,spotI7,spotI8,spotI9
 		}
 		artifact dataSetGenerator : dataSetGenerator.DataSetGenerator {
-			focused-by: d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20
-		}
-		
-		artifact simulation : sumo.Simulation {
-			focused-by: d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20
+			focused-by: d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25,d26,d27,d28,d29,d30,d31,d32,d33,d34,d35,d36,d37,d38,d39,d40,d41,d42,d43,d44,d45,d46,d47,d48,d49,d50,d51,d52,d53,d54,d55,d56,d57,d58,d59,d60,d61,d62,d63,d64,d65,d66,d67,d68,d69,d70,d71,d72,d73,d74,d75,d76,d77,d78,d79,d80,d81,d82,d83,d84,d85,d86,d87,d88,d89,d90,d91,d92,d93,d94,d95,d96,d97,d98,d99,d100,d101,d102,d103,d104,d105,d106,d107,d108,d109,d110,d111,d112,d113,d114,d115,d116,d117,d118,d119,d120,d121,d122,d123,d124,d125,d126,d127,d128,d129,d130,d131,d132,d133,d134,d135,d136,d137,d138,d139,d140,d141,d142,d143,d144,d145,d146,d147,d148,d149,d150,d151,d152,d153,d154,d155,d156,d157,d158,d159,d160,d161,d162,d163,d164,d165,d166,d167,d168,d169,d170,d171,d172,d173,d174,d175,d176,d177,d178,d179,d180,d181,d182,d183,d184,d185,d186,d187,d188,d189,d190,d191,d192,d193,d194,d195,d196,d197,d198,d199
 		}
 	}
 
