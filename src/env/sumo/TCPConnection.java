@@ -44,7 +44,7 @@ public class TCPConnection {
 	        skt.close();
 	        
 	    }catch(Exception e) {
-	    	System.out.print("It didn't work!\n");
+	    	System.out.print("Sumo desconectado!\n");
 	    }
 	}
 }

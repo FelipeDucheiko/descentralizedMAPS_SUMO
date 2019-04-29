@@ -7,6 +7,7 @@ parked(false).
 arrived(false).
 averageSaleValue(0).
 offerList([]).
+startNegotiation(true).
 messageSentNumber(0).
 broadcastSentNumber(0).
 
@@ -46,7 +47,7 @@ broadcastSentNumber(0).
 	!startNegotiation.
 	
 //Seller	
-+!startNegotiation: offerList(OfferList) & locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY) & parkedSpot(ParkedSpot) & messageSentNumber(N) & broadcastSentNumber(B)<- 
++!startNegotiation: offerList(OfferList) & locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY) & parkedSpot(ParkedSpot) & messageSentNumber(N) & broadcastSentNumber(B) & startNegotiation(StartNegotiationBoolean) <- 
 	if(.empty(OfferList)){
 		
 		if(B > 5){
@@ -59,10 +60,18 @@ broadcastSentNumber(0).
 		}
 		
 		-+broadcastSentNumber(B+1);
+		-+startNegotiation(true);
 		.broadcast(achieve, generateOffer(locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY)));
 		.print("Enviando broadcast");	
+	} else{
+		if(StartNegotiationBoolean = true){
+			-+startNegotiation(false);
+			.nth(0, OfferList, Driver);
+			.nth(1, OfferList, Offer);
+			!analyzeOffer(driver(Driver), offer(Offer));
+		}
 	}
-	.wait(5000)
+	.wait(1000)
 	!startNegotiation;.
 
 	
@@ -85,14 +94,8 @@ broadcastSentNumber(0).
 +!receiveOffer(offer(Offer))[source(AG)]: offerList(OfferList) <-
 	.print("Recebi a oferta ", Offer, " do agente ", AG);
 	
-	if (.empty(OfferList)){
-		.concat(OfferList, [AG, Offer], X);
-		-+offerList(X);
-		!analyzeOffer(driver(AG), offer(Offer));
-	} else {
-		.concat(OfferList, [AG, Offer], X);
-		-+offerList(X);
-	}.
+	.concat(OfferList, [AG, Offer], X);
+	-+offerList(X).
 	
 	
 //Seller

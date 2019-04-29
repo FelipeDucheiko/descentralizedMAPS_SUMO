@@ -21,8 +21,6 @@ public class Simulation extends Artifact {
 		
 		String protocol = "D" + idDriver + "PS" + idSpot + "TR" + trust;
 		
-		System.out.println(protocol);
-		
 		conn.connect(protocol);
 	}
 
