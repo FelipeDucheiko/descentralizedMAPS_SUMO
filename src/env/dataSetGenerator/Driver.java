@@ -9,6 +9,7 @@ public class Driver {
 	private String parkingSpot;
 	private Double timeToPark;
 	private Double salesValue;
+	private String saleType;
 	private LocalTime departureTime;
 	private Double spendedTime;
 	private int messageSentToBuy;
@@ -19,6 +20,7 @@ public class Driver {
 	private double targetLocationY;
 	private double parkedLocationX;
 	private double parkedLocationY;
+	private int maxValue;
 	
 	public String getName() {
 		return name;
@@ -115,6 +117,18 @@ public class Driver {
 	}
 	public void setParkedLocationY(double parkedLocationY) {
 		this.parkedLocationY = parkedLocationY;
+	}
+	public String getSaleType() {
+		return saleType;
+	}
+	public void setSaleType(String saleType) {
+		this.saleType = saleType;
+	}
+	public int getMaxValue() {
+		return maxValue;
+	}
+	public void setMaxValue(int maxValue) {
+		this.maxValue = maxValue;
 	}
 
 

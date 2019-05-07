@@ -17,21 +17,21 @@ broadcastSentNumber(0).
 /* Plans */
 
 //Buyer
-+!arriveParking: timeToArrive(TimeToArrive) & broadcastSentNumber(N) & targetLocation(X,Y) <-
++!arriveParking: timeToArrive(TimeToArrive) & broadcastSentNumber(N) & targetLocation(X,Y) & maxValue(MaxValue) <-
 	adoptRole(buyer)[artifact_id(parkingLot_org)];
 	.my_name(Me);
 	startDriver(Me);
 	.print("Aguardando para entrar - ", TimeToArrive);
 	.wait(TimeToArrive);
 	-+arrived(true);
-	arrivalTime(Me, X, Y);
+	arrivalTime(Me, X, Y, MaxValue);
 	.print("Entrando");
 	-+broadcastSentNumber(N+1);
 	.broadcast(achieve, askStatus). //ask status to parking spots
 
 //Buyer	
-+!answerStatusParkingSpot(owner(Owner), location(LocationX, LocationY))[source(ParkingSpot)]: parked(Parked) & targetLocation(X,Y) <-
-	if (Owner = false &  Parked = false & math.abs(LocationX-X) < 250 & math.abs(LocationY-Y) < 250){
++!answerStatusParkingSpot(owner(Owner), location(LocationX, LocationY))[source(ParkingSpot)]: parked(Parked) & targetLocation(X,Y) & maxDistance(MaxDistance) <-
+	if (Owner = false &  Parked = false & math.sqrt(((LocationX-X)*(LocationX-X)) + ((LocationY-Y)*(LocationY-Y))) < (MaxDistance*10)){
 		!park(parkedSpot(ParkingSpot), locationParkedSpot(LocationX, LocationY));
 	}.
 	
@@ -47,19 +47,19 @@ broadcastSentNumber(0).
 	!startNegotiation.
 	
 //Seller	
-+!startNegotiation: offerList(OfferList) & locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY) & parkedSpot(ParkedSpot) & messageSentNumber(N) & broadcastSentNumber(B) & startNegotiation(StartNegotiationBoolean) <- 
++!startNegotiation: offerList(OfferList) & locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY) & parkedSpot(ParkedSpot) & messageSentNumber(MessageSentNumber) & broadcastSentNumber(BroadcastSentNumber) & startNegotiation(StartNegotiationBoolean) <- 
 	if(.empty(OfferList)){
 		
-		if(B > 5){
+		if(BroadcastSentNumber > 5){
 			.send(ParkedSpot, achieve, freeParkingSpot);
 			.my_name(Me);
 			freePark(Me, ParkedSpot); //interface
-			sell(Me, N, B);
+			sell(Me, MessageSentNumber, BroadcastSentNumber, "Gave up");
 			.print("Desistiu de vender a vaga");
 			.fail_goal(startNegotiation);
 		}
 		
-		-+broadcastSentNumber(B+1);
+		-+broadcastSentNumber(BroadcastSentNumber+1);
 		-+startNegotiation(true);
 		.broadcast(achieve, generateOffer(locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY)));
 		.print("Enviando broadcast");	
@@ -84,7 +84,7 @@ broadcastSentNumber(0).
 			.send(AG, achieve, receiveOffer(offer(Offer)));
 			-+messageSentNumber(N+1);
 			-+offer(Offer);
-			.print("Proposta ", Offer, " enviada para o agente ", AG, " - ", Offer)}
+			.print("Proposta ", Offer, " enviada para o agente ", AG)}
 		else{
 			.print("Oferta de vaga recebida de ", AG, " ignorada, já tenho vaga.")	
 		}
@@ -109,7 +109,7 @@ broadcastSentNumber(0).
 	if (Offer >= M){
 		.print("Negociação encerrada, vaga vendida para o agente ", Driver);
 		.my_name(Me);
-		sell(Me, N+1, B);
+		sell(Me, N+1, B, "Sell");
 		.send(Driver, achieve, park(parkedSpot(ParkedSpot), locationParkedSpot(X, Y), salesValue(Offer)));
 		-+messageSentNumber(N+1);
 	}
@@ -187,7 +187,7 @@ broadcastSentNumber(0).
 //seller
 +!counterOfferAccepted[source(AG)]: messageSentNumber(N) & broadcastSentNumber(B) <-
 	.my_name(Me);
-	sell(Me, N+1, B).
+	sell(Me, N+1, B, "Sell ultimatum").
 
 //Buyer
  +!ultimatum(counterOffer(CounterOffer), parkedSpot(ParkedSpot), locationParkedSpot(X, Y))[source(AG)]: offerList(OfferList) & rangeAccording(RangeAccording) & offer(Offer) & messageSentNumber(N)<-

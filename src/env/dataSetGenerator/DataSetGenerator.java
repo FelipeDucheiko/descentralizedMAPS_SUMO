@@ -42,7 +42,7 @@ public class DataSetGenerator extends Artifact {
             fileWriter = new FileWriter(fileName, true);
             bufferedWriter = new BufferedWriter(fileWriter);
             out = new PrintWriter(bufferedWriter);
-            out.println("AG;ArrivalTime;ParkingTime;ParkingSpot;TimeToPark;SalesValue;DepartureTime;SpendedTime;targetLocationX;targetLocationY;parkedLocationX;parkedLocationY;msgToBuy;broadcastToBuy;msgToSell;broadcastToSell;totalMsg;totalBroadcast");
+            out.println("AG;ArrivalTime;ParkingTime;ParkingSpot;TimeToPark;SalesValue;SaleType;DepartureTime;SpendedTime;targetLocationX;targetLocationY;parkedLocationX;parkedLocationY;msgToBuy;broadcastToBuy;msgToSell;broadcastToSell;totalMsg;totalBroadcast;maxValue");
             out.close();
 		} catch(IOException ex) {
             System.out.println("Error writing to file '" + fileName + "'");
@@ -51,7 +51,7 @@ public class DataSetGenerator extends Artifact {
 	}
 	
 	@OPERATION
-	void arrivalTime(String driver, Object targetLocationX, Object targetLocationY) {
+	void arrivalTime(String driver, Object targetLocationX, Object targetLocationY, Object maxValue) {
 		LocalTime arrivalTime = LocalTime.now();
 		
 		Driver d = new Driver();
@@ -59,6 +59,7 @@ public class DataSetGenerator extends Artifact {
 		d.setArrivalTime(arrivalTime);
 		d.setTargetLocationX(Double.parseDouble(targetLocationX.toString()));
 		d.setTargetLocationY(Double.parseDouble(targetLocationY.toString()));
+		d.setMaxValue(Integer.parseInt(maxValue.toString()));
 		drivers.put(driver, d);
 	}
 	
@@ -90,11 +91,12 @@ public class DataSetGenerator extends Artifact {
 	}
 	
 	@OPERATION
-	void sell(String driver, Object msgToSell, Object broadcastToSell) {		
+	void sell(String driver, Object msgToSell, Object broadcastToSell, String saleType) {		
 		Driver d = drivers.get(driver);
 		
 		d.setMessageSentToSell(Integer.parseInt(msgToSell.toString()) - d.getMessageSentToBuy());
 		d.setBroadcastSentToSell(Integer.parseInt(broadcastToSell.toString()) - d.getBroadcastSentToBuy());
+		d.setSaleType(saleType);
 		
 		print(d);
 	}
@@ -106,7 +108,7 @@ public class DataSetGenerator extends Artifact {
             fileWriter = new FileWriter(fileName, true);
             bufferedWriter = new BufferedWriter(fileWriter);
             out = new PrintWriter(bufferedWriter);
-            out.println(d.getName() + ";" + d.getArrivalTime().format(timeFormatter2) + ";" + d.getParkingTime().format(timeFormatter2) + ";" + d.getParkingSpot() + ";" + d.getTimeToPark() + ";" + d.getSalesValue() + ";" + d.getDepartureTime().format(timeFormatter2) + ";" + d.getSpendedTime() + ";" + d.getTargetLocationX() + ";" + d.getTargetLocationY() + ";" + d.getParkedLocationX() + ";" + d.getParkedLocationY() + ";" + d.getMessageSentToBuy() + ";" + d.getBroadcastSentToBuy() + ";" + d.getMessageSentToSell() + ";" + d.getBroadcastSentToSell() + ";" + (d.getMessageSentToSell() + d.getMessageSentToBuy()) + ";" + (d.getBroadcastSentToSell() + d.getBroadcastSentToBuy()));
+            out.println(d.getName() + ";" + d.getArrivalTime().format(timeFormatter2) + ";" + d.getParkingTime().format(timeFormatter2) + ";" + d.getParkingSpot() + ";" + d.getTimeToPark() + ";" + d.getSalesValue() + ";"  + d.getSaleType() + ";" + d.getDepartureTime().format(timeFormatter2) + ";" + d.getSpendedTime() + ";" + d.getTargetLocationX() + ";" + d.getTargetLocationY() + ";" + d.getParkedLocationX() + ";" + d.getParkedLocationY() + ";" + d.getMessageSentToBuy() + ";" + d.getBroadcastSentToBuy() + ";" + d.getMessageSentToSell() + ";" + d.getBroadcastSentToSell() + ";" + (d.getMessageSentToSell() + d.getMessageSentToBuy()) + ";" + (d.getBroadcastSentToSell() + d.getBroadcastSentToBuy()) + ";" + d.getMaxValue());
             out.close();
 		} catch(IOException ex) {
             System.out.println("Error writing to file '" + fileName + "'");

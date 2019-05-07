@@ -16,10 +16,23 @@ public class ProposalGenerator extends Artifact {
 	
 	@OPERATION
 	void generateOffer(Object maxValue, Object maxDistance, Object locationParkedSpotX, Object locationParkedSpotY, Object targetLocationX, Object targetLocationY, OpFeedbackParam<Object> offer) {
-		double o = (Integer.parseInt(maxValue.toString())) - (Math.sqrt(Math.pow(Double.parseDouble(locationParkedSpotX.toString()) - Double.parseDouble(targetLocationX.toString()), 2) + Math.pow(Double.parseDouble(locationParkedSpotY.toString()) - Double.parseDouble(targetLocationY.toString()), 2)))/(Double.parseDouble(maxDistance.toString()));
+		int maxValueInt = Integer.parseInt(maxValue.toString());
+		int maxDistanceInt = Integer.parseInt(maxDistance.toString());
+		double locationParkedSpotXDouble = Double.parseDouble(locationParkedSpotX.toString());
+		double locationParkedSpotYDouble = Double.parseDouble(locationParkedSpotY.toString());
+		double targetLocationXDouble = Double.parseDouble(targetLocationX.toString());
+		double targetLocationYDouble = Double.parseDouble(targetLocationY.toString());
+		
+		double distance = calculateDistance(locationParkedSpotXDouble, locationParkedSpotYDouble, targetLocationXDouble, targetLocationYDouble);
+
+		double o = maxValueInt - (distance/maxDistanceInt);
+
 		offer.set(o);
+	}
+
+	private double calculateDistance(double locationParkedSpotXDouble, double locationParkedSpotYDouble, double targetLocationXDouble, double targetLocationYDouble) {
+		return Math.sqrt(Math.pow(locationParkedSpotXDouble - targetLocationXDouble, 2) + Math.pow(locationParkedSpotYDouble - targetLocationYDouble, 2));
 	}
 	
 	
 }
-
