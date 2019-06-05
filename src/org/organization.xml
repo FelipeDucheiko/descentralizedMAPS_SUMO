@@ -63,7 +63,8 @@
                 
                 <goal id="startNegotiation">
                 	<plan operator="sequence">
-                		<goal id="generateOffer"></goal>
+                		<goal id="offerSpot"></goal>
+                		<goal id="receiveOffer"></goal>
                 		<goal id="analyzeOffer"></goal>
                 		<goal id="generateCounterOffer"></goal>
                 		<goal id="ultimatum"></goal>                		

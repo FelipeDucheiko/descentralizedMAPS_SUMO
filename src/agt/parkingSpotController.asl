@@ -17,9 +17,6 @@ occupied(false).
 +!askStatus[source(AG)]: owner(Owner) & location(LocationX, LocationY) <- 
 	.send(AG, achieve, answerStatusParkingSpot(owner(Owner), location(LocationX, LocationY))).
 	
-+!askIsOccupied[source(AG)]: occupied(Occupied) <-	
-	.send(AG, tell, occupied(Occupied)).
-	
 +!askAverageSaleValue[source(AG)]: averageSaleValue(M) <-	
 	.send(AG, tell, averageSaleValue(M)).
 

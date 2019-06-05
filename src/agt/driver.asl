@@ -47,21 +47,21 @@ broadcastSentNumber(0).
 	!startNegotiation.
 	
 //Seller	
-+!startNegotiation: offerList(OfferList) & locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY) & parkedSpot(ParkedSpot) & messageSentNumber(MessageSentNumber) & broadcastSentNumber(BroadcastSentNumber) & startNegotiation(StartNegotiationBoolean) <- 
++!startNegotiation: offerList(OfferList) & locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY) & parkedSpot(ParkedSpot) & messageSentNumber(N) & broadcastSentNumber(B) & startNegotiation(StartNegotiationBoolean) <- 
 	if(.empty(OfferList)){
 		
-		if(BroadcastSentNumber > 5){
+		if(B > 5){
 			.send(ParkedSpot, achieve, freeParkingSpot);
 			.my_name(Me);
 			freePark(Me, ParkedSpot); //interface
-			sell(Me, MessageSentNumber, BroadcastSentNumber, "Gave up");
+			sell(Me, N, B, "Gave up");
 			.print("Desistiu de vender a vaga");
 			.fail_goal(startNegotiation);
 		}
 		
-		-+broadcastSentNumber(BroadcastSentNumber+1);
+		-+broadcastSentNumber(B+1);
 		-+startNegotiation(true);
-		.broadcast(achieve, generateOffer(locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY)));
+		.broadcast(achieve, offerSpot(locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY)));
 		.print("Enviando broadcast");	
 	} else{
 		if(StartNegotiationBoolean = true){
@@ -76,7 +76,7 @@ broadcastSentNumber(0).
 
 	
 //Buyer
-+!generateOffer(locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY))[source(AG)]: messageSentNumber(N) & maxValue(MaxValue) & maxDistance(MaxDistance) & targetLocation(TargetLocationX, TargetLocationY) & parked(Parked) & arrived(Arrived)<-
++!offerSpot(locationParkedSpot(LocationParkedSpotX, LocationParkedSpotY))[source(AG)]: messageSentNumber(N) & maxValue(MaxValue) & maxDistance(MaxDistance) & targetLocation(TargetLocationX, TargetLocationY) & parked(Parked) & arrived(Arrived)<-
 	if (Arrived = true){	
 		if (Parked = false){
 			.print("Oferta de vaga recebida de ",  AG, ", iniciando negociação"); 
@@ -115,14 +115,14 @@ broadcastSentNumber(0).
 	}
 	if (Offer < M/2){
 		.print("Negociação encerrada com o agente ", Driver, ", sem trato");
-		!nextDriver;
+		!giveUp;
 	}
 	if ((Offer < M) & (Offer >= M/2)){
 		.print("Gerar contra oferta!!!!");
 		!generateCounterOffer(source(Driver));
 	}.
 	
-+!nextDriver: offerList(OfferList) <-
++!giveUp: offerList(OfferList) <-
 	.nth(0, OfferList, D);
 	.nth(1, OfferList, O);
 	.print("DRIVER E OFFER RETIRADOS DA LISTA: ", D, ", ", O);
@@ -199,7 +199,7 @@ broadcastSentNumber(0).
  		!park(parkedSpot(ParkedSpot), locationParkedSpot(X, Y), salesValue(CounterOffer));
  	} else {
  		.print("Contra proposta rejeitada, sem trato. Encerrada negociação com o agente ", AG);
- 		.send(AG, achieve, nextDriver); 
+ 		.send(AG, achieve, giveUp); 
  		-+messageSentNumber(N+1);
  	}. 
  	
